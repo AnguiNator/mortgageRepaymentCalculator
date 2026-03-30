@@ -8,10 +8,10 @@ Aplicación desarrollada como un reto de Frontend Mentor para calcular pagos hip
 ## 📸 Capturas de pantalla
 
 ### 📱 Vista Mobile
-![Mobile](./screenshots/mobile.png)
+![Mobile](./screenShots/Mobil.png)
 
 ### 💻 Vista Desktop
-![Desktop](./screenshots/desktop.png)
+![Desktop](./screenShots/deskTop.png)
 
 ---
 
