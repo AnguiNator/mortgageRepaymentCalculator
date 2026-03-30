@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@utility text-preset1 {
+    @apply text-[3.5rem] leading-[125%] -tracking-[0.06rem] font-bold;
+}
+
+@utility text-preset2 {
+    @apply text-2xl leading-[125%] -tracking-[0.06rem] font-bold;
+}
+
+@utility text-preset3 {
+    @apply text-lg leading-[125%] -tracking-[0.06rem] font-bold;
+}
+
+@utility text-preset4 {
+    @apply text-base leading-[150%] tracking-normal font-normal;
+}
+
+@utility text-preset5 {
+    @apply text-sm leading-[150%] tracking-normal font-normal;
+}
+
+
+@theme {
+    --color-lime: #D8DB2F;
+    --color-slate-900: #133041;
+    --color-slate-700: #4E6E7E;
+    --color-slate-500: #6B94A8;
+    --color-slate-300: #9ABED5;
+    --color-slate-100: #E4F4FD;
+    --color-red: #D73328;
+
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: rgba(228, 244, 253, 1);
+    min-height: 100vh;
+    margin: 0;
+}
+
+@media (min-width: 1024px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+}
