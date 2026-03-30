@@ -1,16 +1,40 @@
-# React + Vite
+# 📌 Mortgage Repayment Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📝 Descripción
+Aplicación desarrollada como un reto de Frontend Mentor para calcular pagos hipotecarios de forma clara e interactiva. El proyecto permite ingresar el monto, plazo, tasa de interés y tipo de hipoteca para mostrar automáticamente los pagos mensuales y el total a pagar, con validaciones en el formulario y una interfaz responsive para mobile y desktop.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Capturas de pantalla
 
-## React Compiler
+### 📱 Vista Mobile
+![Mobile](./screenshots/mobile.png)
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+### 💻 Vista Desktop
+![Desktop](./screenshots/desktop.png)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tecnologías utilizadas
+- HTML5
+- CSS3
+- JavaScript
+- React
+- Vite
+- Tailwind CSS
+- ESLint
+
+---
+
+## 🚀 Retos
+Uno de los principales retos fue manejar correctamente la lógica del cálculo hipotecario según el tipo de préstamo, ya que no era lo mismo calcular un plan de pago completo que un caso de solo intereses. También fue interesante validar los campos numéricos para evitar valores no permitidos y mantener una experiencia de usuario limpia mientras el formulario actualizaba los resultados en tiempo real.
+
+---
+
+## 📚 Aprendizajes
+Con este reto reforcé el uso de Context para compartir estado entre componentes, la organización de una interfaz en piezas reutilizables y la validación de formularios en React. También practiqué cómo formatear resultados numéricos para mostrarlos de forma más clara y cómo adaptar el diseño a distintos tamaños de pantalla con Tailwind CSS.
+
+---
+
+## 👨‍💻 Autor
+**Jesus Anguiano**
